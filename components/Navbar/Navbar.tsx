@@ -3,13 +3,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import cn from "clsx";
 
-import styles from "./style.module.css";
-
 const LINKS = [
   { id: 1, title: "Home", href: "/" },
   { id: 2, title: "About", href: "/about" },
   { id: 3, title: "News", href: "/news" },
-  { id: 4, title: "Contacts", href: "/contacts" },
+  { id: 4, title: "Restaurants", href: "/restaurants" },
+  { id: 5, title: "Contacts", href: "/contacts" },
 ];
 
 const Navbar = () => {

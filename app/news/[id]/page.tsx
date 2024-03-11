@@ -1,3 +1,3 @@
-export default function NewsItemPage({ params: { id } }) {
-  return <h1>page {id}</h1>;
+export default function NewsItemPage({ params }: { params: any }) {
+  return <h1>page {params.id}</h1>;
 }
