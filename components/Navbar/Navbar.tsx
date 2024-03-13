@@ -9,6 +9,7 @@ const LINKS = [
   { id: 3, title: "News", href: "/news" },
   { id: 4, title: "Restaurants", href: "/restaurants" },
   { id: 5, title: "Contacts", href: "/contacts" },
+  { id: 6, title: "Войти", href: "/auth/login" },
 ];
 
 const Navbar = () => {
